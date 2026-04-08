@@ -22,7 +22,7 @@
     <sup>2</sup>Kuaishou Technology &nbsp;&nbsp;
     <sup>3</sup>CAIR and CIDSAI, NYU Abu Dhabi
 </p>
-<h3 align="center"><a href="https://arxiv.org/abs/xxxx.xxxxx">Paper</a> | <a href="https://weiqi-zhang.github.io/GaussianGrow/">Project Page</a></h3>
+<h3 align="center"><a href="http://arxiv.org/abs/2604.05721">Paper</a> | <a href="https://weiqi-zhang.github.io/GaussianGrow/">Project Page</a></h3>
 <div align="center"></div>
 </p>
 <p align="center">
