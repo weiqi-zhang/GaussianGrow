@@ -1,0 +1,61 @@
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+build/
+dist/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.tox/
+.cache/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# CUDA build artifacts
+*.o
+*.obj
+*.lib
+
+# Pipeline outputs (do not check in generated data or model weights)
+outputs/
+third_party/
+*.ply
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+
+# Allow the example mesh shipped with the repo.
+!examples/**/*.obj
+
+# Hunyuan3D / ControlNet weights mistakenly placed inside the repo.
+models/ControlNet/models/*.pth
+models/delight/**/*.bin
+Hunyuan3D/weights/
+
+# Logs
+*.log

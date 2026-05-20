@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gaussian-grow"
+version = "0.1.0"
+description = "GaussianGrow: Geometry-aware Gaussian Growing from 3D Point Clouds with Text Guidance (CVPR 2026)."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {file = "LICENSE"}
+authors = [
+    {name = "GaussianGrow Authors"},
+]
+keywords = ["3D Gaussian Splatting", "text-to-3D", "point cloud", "diffusion"]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Topic :: Scientific/Engineering :: Image Processing",
+]
+dynamic = ["dependencies"]
+
+[project.urls]
+Homepage = "https://weiqi-zhang.github.io/GaussianGrow/"
+Paper = "https://arxiv.org/abs/2604.05721"
+Repository = "https://github.com/weiqi-zhang/GaussianGrow"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = [
+    "arguments*",
+    "gaussian_grow*",
+    "gaussian_renderer*",
+    "Hunyuan3D*",
+    "models*",
+    "scene*",
+    "scripts*",
+    "utils*",
+]
+namespaces = true

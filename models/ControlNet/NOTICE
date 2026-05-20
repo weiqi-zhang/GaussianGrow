@@ -1,0 +1,15 @@
+ControlNet
+Copyright (c) 2023 Lvmin Zhang and contributors.
+
+This product includes software developed at the ControlNet project
+(https://github.com/lllyasviel/ControlNet), licensed under the
+Apache License, Version 2.0 (see LICENSE in this directory).
+
+Files under `annotator/uniformer/` are re-vendored from
+mmcv (https://github.com/open-mmlab/mmcv) and
+mmsegmentation (https://github.com/open-mmlab/mmsegmentation),
+which are also distributed under the Apache License 2.0.
+
+The ControlNet source tree is included in GaussianGrow with only
+import-path adjustments. No substantive modifications have been
+made to its core inference, model, or annotator code.
